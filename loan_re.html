@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ahmad Algshy | Home</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/slick.css" />
+    <link rel="stylesheet" href="css/slick-theme.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Ahmad Algshy</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="/home.html"
+                  >الصفحة الرئيسية</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="/aboutus.html"
+                  >من نحن</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="/products.html"
+                  >منتجاتنا وخدماتنا</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="/loan_re.html"
+                >
+                  تقديم طلب قرض</a
+                >
+              </li>
+          
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="content container">
+        <div class="row">
+          <div class="col-12 mt-3">
+            <div class="card">
+              <form method="get" action="result.html">
+                <div class="mb-3">
+                  <label for="fullName" class="form-label">الاسم الكامل</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="fullName"
+                    aria-describedby="fullNameHelp"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="countryNumber" class="form-label">
+                    الرقم الوطني</label
+                  >
+                  <input
+                    type="number"
+                    class="form-control"
+                    id="countryNumber"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="countryNumber" class="form-label">
+                    تاريخ الوالدة</label
+                  >
+                  <input type="date" class="form-control" id="countryNumber" />
+                </div>
+                <div class="mb-3">
+                  <label for="countryNumber" class="form-label">
+                    رقم الموبايل</label
+                  >
+                  <input
+                    type="number"
+                    class="form-control"
+                    id="countryNumber"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="countryNumber" class="form-label"> الايميل</label>
+                  <input type="email" class="form-control" id="countryNumber" />
+                </div>
+                <div class="mb-3">
+                  <label for="countryNumber" class="form-label">
+                    قيمة القرض المطلوبة</label
+                  >
+                  <input
+                    type="number"
+                    class="form-control"
+                    id="countryNumber"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="countryNumber" class="form-label">
+                    نوع القرض المطلوب</label
+                  >
+                  <input type="text" class="form-control" id="countryNumber" />
+                </div>
+                <div class="mb-3">
+                  <label for="countryNumber" class="form-label">
+                    عدد سنوات القرض</label
+                  >
+                  <select
+                    class="form-select"
+                    aria-label="Default select example"
+                  >
+                    <option value="3">3</option>
+                    <option value="5">5</option>
+                    <option value="10">10</option>
+                    <option value="15">15</option>
+                    <option value="20">20</option>
+                  </select>
+                </div>
+                <div class="mb-3">
+                  <label for="countryNumber" class="form-label">
+                    طريقة تسديد الدفعات</label
+                  >
+                  <select
+                    class="form-select"
+                    aria-label="Default select example"
+                  >
+                    <option value="1">شهرية</option>
+                    <option value="2">ربعية</option>
+                    <option value="3">سنوية</option>
+                  </select>
+                </div>
+                <button type="submit" class="btn btn-primary">
+                  تقديم الطلب
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer></footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000,
+      });
+    </script>
+  </body>
+</html>

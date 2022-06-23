@@ -1,0 +1,89 @@
+@font-face {
+  font-family: "Bold";
+  src: url("../fonts/GESSTwoBold.otf");
+}
+@font-face {
+  font-family: "Medium";
+  src: url("../fonts/GESSTwoMedium.otf");
+  unicode-range: U+0600- U+06FF;
+}
+@font-face {
+  font-family: "Light";
+  src: url("../fonts/GE_SS_Two_Light.otf");
+  unicode-range: U+0600- U+06FF;
+}
+@font-face {
+  font-family: "Light";
+  src: url("../public/fonts/Roboto-Light.ttf");
+  unicode-range: U+0600- U+06FF;
+}
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url("../fonts/Roboto-Regular.ttf");
+}
+@font-face {
+  font-family: "Medium";
+  src: url("../fonts/Roboto-Medium.ttf");
+  unicode-range: U+0600- U+06FF;
+}
+
+
+
+
+*{
+  font-family: "Medium";
+  direction: rtl;
+  text-align: right;
+}
+
+body {
+  header {
+    .navbar {
+      padding:  10px  5vw!important;
+      background-color: #3e68b0 !important;
+      .nav-link,
+      .navbar-brand {
+        color: white !important;
+      
+      }
+      .nav-link{
+        font-family: "Light";
+        font-size: 14px;
+        margin-right: 20px;
+        color: #ccc !important;
+
+        &.active{
+          color: #fff !important;
+        }
+      }
+      .navbar-brand{
+        margin-right: 30px;
+      }
+    }
+  }
+  main {
+    overflow: hidden;
+   .content{
+    padding: 30px 0; 
+    .card{
+      background-color: #eee;
+      border-radius: 15px;
+      padding: 30px;
+      .description{
+        font-family: "Roboto-Regular";
+      }
+    }
+   }
+  }
+  footer {
+  }
+}
+
+.en{
+  direction: ltr;
+  text-align: left;
+  *{
+    direction: ltr;
+    text-align: left;
+  }
+}
